@@ -1,0 +1,97 @@
+body {
+	font-family: arial;
+}
+.container {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.banner img{
+	height: 420px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.row {
+	width: 99%;
+    position: absolute;
+    top: 428px;
+}
+
+.row .column-left {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    width: 20%;
+}
+.row .column-left ul.leftul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.row .column-left a {
+	color: white;
+	background-color: #283747;
+	width: 100px;
+	padding: 10px;
+}
+
+.row .column-left a:hover {
+	background-color: #E74C3C;
+	width: 100%;
+	padding: 10px;
+}
+
+.row .column-left ul li,.row .column-right ul li {
+	margin-top: 20px;
+}
+
+a:hover {
+	color:white;
+}
+
+a.readmore {
+	position: absolute;
+	left: 210px;
+	margin-right: -40px;
+}
+.row .column-center {
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+    left: 311px;
+    padding: 20px;
+    position: absolute;
+    width: 51%;
+}
+
+.row .column-right {
+    right: 0;
+    padding: 20px;
+    position: absolute;
+    width: 20%;
+}
+
+.row .column-right ul.rightul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.row .column-right .shoes {
+	border: 3px solid blue;
+	margin-top: 10px;
+}
+
+footer {
+	border-top: 1px solid lightgrey;
+	bottom: -410px;
+	color: blue;
+	padding-top: 10px;
+	position: absolute;
+	text-align: center;
+	width: 99%;
+}
+
+a{
+	text-decoration: none;
+}
